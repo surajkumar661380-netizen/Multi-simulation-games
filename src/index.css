@@ -1,0 +1,52 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #000000;
+  color: #fef08a;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Pure Golden Text Selection */
+::selection {
+  background-color: #fbbf24;
+  color: #000000;
+}
+
+/* Pure Golden & Obsidian Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #854d0e;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #eab308;
+}
+
+/* Gold glow utilities */
+.gold-glow {
+  box-shadow: 0 0 20px rgba(234, 179, 8, 0.25);
+}
+
+.gold-glow-lg {
+  box-shadow: 0 0 35px rgba(234, 179, 8, 0.4);
+}
+
+.gold-border-glow {
+  border-color: rgba(234, 179, 8, 0.5);
+  box-shadow: 0 0 15px rgba(234, 179, 8, 0.2);
+}

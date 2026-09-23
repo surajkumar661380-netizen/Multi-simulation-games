@@ -1,0 +1,6 @@
+{
+  "name": "SimuVerse - Multi-Simulator Studio",
+  "description": "Comprehensive simulation games suite featuring Driving, Flight, Farming, and City Building with progressive level unlocks, performance scoring, cloud sync, offline mode, and leaderboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
